@@ -1,11 +1,12 @@
 <div class="posts form">
-<?php echo $this->Form->create('Post'); ?>
+<?php echo $this->Form->create('Post', array('type' => 'file')); ?>
 	<fieldset>
 		<legend><?php echo __('Add Post'); ?></legend>
 	<?php
 		echo $this->Form->input('title');
 		echo $this->Form->input('slug');
 		echo $this->Form->input('text');
+		echo $this->Form->input('photo', array('type' => 'file'));
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>

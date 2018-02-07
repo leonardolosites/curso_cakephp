@@ -18,24 +18,24 @@ class GroupsController extends AppController {
     /**
      * Define as permissões de cada grupo
      */
-    public function resetPermissions(){
-        $Group = $this->Group;
-
-        /* Administradores podem tudo*/
-        $Group->id = $Group->field('id', array('name' => 'Administradores'));
-        $this->Acl->allow($Group, 'controllers');
-
-        /* Moderadores possuem acesso apenas à listagem, cadastro e edição de posts*/
-        $Group->id = $Group->field('id', array('name' => 'Moderadores'));
-        $this->Acl->deny($Group, 'controllers');
-        $this->Acl->allow($Group, 'controllers/Posts/index');
-        $this->Acl->allow($Group, 'controllers/Posts/view');
-        $this->Acl->allow($Group, 'controllers/Posts/add');
-        $this->Acl->allow($Group, 'controllers/Posts/edit');
-
-        $this->Flash->success('Permissões atualizadas');
-        $this->redirect(array('controller' => 'users', 'action' => 'index'));
-    }
+//    public function resetPermissions(){
+//        $Group = $this->Group;
+//
+//        /* Administradores podem tudo*/
+//        $Group->id = $Group->field('id', array('name' => 'Administradores'));
+//        $this->Acl->allow($Group, 'controllers');
+//
+//        /* Moderadores possuem acesso apenas à listagem, cadastro e edição de posts*/
+//        $Group->id = $Group->field('id', array('name' => 'Moderadores'));
+//        $this->Acl->deny($Group, 'controllers');
+//        $this->Acl->allow($Group, 'controllers/Posts/index');
+//        $this->Acl->allow($Group, 'controllers/Posts/view');
+//        $this->Acl->allow($Group, 'controllers/Posts/add');
+//        $this->Acl->allow($Group, 'controllers/Posts/edit');
+//
+//        $this->Flash->success('Permissões atualizadas');
+//        $this->redirect(array('controller' => 'users', 'action' => 'index'));
+//    }
 
     /**
      * index method

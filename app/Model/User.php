@@ -9,36 +9,36 @@ class User extends AppModel {
     /**
      * Behaviors
      * */
-    public $actsAs = array('Acl' => array('type' => 'requester')); // ARO
+//    public $actsAs = array('Acl' => array('type' => 'requester')); // ARO
 
     /**
      * Informa pro ACL quem é o pai (grupo)
      */
-    public function parentNode(){
-        if(!$this->id && empty($this->data)){
-            return null;
-        }
-
-        /*Usa o $this->data ou busca a informação no banco*/
-        if(isset($this->data[$this->alias]['group_id'])){
-            $groupId = $this->data[$this->alias]['group_id'];
-        }else{
-            $groupId = $this->field('group_id');
-        }
-
-        /*Retorna as informações pro ACL*/
-        return $groupId ? array('Group' => array('id' => (int)$groupId)) : null;
-    }
+//    public function parentNode(){
+//        if(!$this->id && empty($this->data)){
+//            return null;
+//        }
+//
+//        /*Usa o $this->data ou busca a informação no banco*/
+//        if(isset($this->data[$this->alias]['group_id'])){
+//            $groupId = $this->data[$this->alias]['group_id'];
+//        }else{
+//            $groupId = $this->field('group_id');
+//        }
+//
+//        /*Retorna as informações pro ACL*/
+//        return $groupId ? array('Group' => array('id' => (int)$groupId)) : null;
+//    }
 
     /**
      * Vincula as permissões do usuário ao seu grupo
      * */
-    public function bindNode($user){
-        return array(
-            'model' => 'Group',
-            'foreign_key' => $user[$this->alias]['group_id']
-        );
-    }
+//    public function bindNode($user){
+//        return array(
+//            'model' => 'Group',
+//            'foreign_key' => $user[$this->alias]['group_id']
+//        );
+//    }
     /**
      * Validation rules
      *

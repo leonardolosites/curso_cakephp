@@ -5,14 +5,14 @@ class Group extends AppModel{
     /**
      * Behaviors
      * */
-    public $actsAs = array('Acl' => array('type' => 'requester')); // ARO
+//    public $actsAs = array('Acl' => array('type' => 'requester')); // ARO
 
     /**
      * Grupos não possuem nó pai
      */
-    public function parentNode(){
-        return null;
-    }
+//    public function parentNode(){
+//        return null;
+//    }
 
     /**
      * Validation rules

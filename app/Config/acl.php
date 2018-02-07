@@ -115,7 +115,7 @@
  * to the roles you defined in the roles configuration.
  */
 $config['map'] = array(
-	'User' => 'User/username',
+	'User' => 'User/email',
 	'Role' => 'User/group_id',
 );
 
@@ -124,7 +124,8 @@ $config['map'] = array(
  * the roles defined in your role configuration.
  */
 $config['alias'] = array(
-	'Role/4' => 'Role/editor',
+	'Role/1' => 'Role/admin',
+	'Role/2' => 'Role/moderador',
 );
 
 /**
@@ -132,6 +133,7 @@ $config['alias'] = array(
  */
 $config['roles'] = array(
 	'Role/admin' => null,
+	'Role/moderador' => null,
 );
 
 /**
@@ -139,7 +141,15 @@ $config['roles'] = array(
  */
 $config['rules'] = array(
 	'allow' => array(
+		//Admin pode tudo!
 		'*' => 'Role/admin',
+
+
+		'controllers/posts/(index|add|edit|view)' => 'Role/moderador',//Libera as actions index, add, edit e view para o grupo moderador
+
 	),
-	'deny' => array(),
+	'deny' => array(
+		// Moderadores não podem deletar Posts
+//		'controllers/posts/delete' => 'Role/moderador', //Revoga a permissão de delete para o grupo moderador
+	),
 );
