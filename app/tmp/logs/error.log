@@ -817,3 +817,282 @@ Stack Trace:
 #14 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #15 C:\xampp\htdocs\curso-cakephp\public_html\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #16 {main}
+2018-02-07 10:31:17 Error: [MissingBehaviorException] Behavior class uploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'uploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /posts
+Stack Trace:
+#0 /home/u605078044/public_html/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Upload.upload', Array)
+#1 /home/u605078044/public_html/lib/Cake/Model/Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 /home/u605078044/public_html/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(742): ClassRegistry::init(Array)
+#5 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(368): Controller->loadModel('Post')
+#6 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(406): Controller->__isset('Post')
+#7 /home/u605078044/public_html/app/Controller/PostsController.php(24): Controller->__get('Post')
+#8 [internal function]: PostsController->index()
+#9 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /home/u605078044/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-02-07 10:31:18 Error: [MissingBehaviorException] Behavior class uploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'uploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /posts
+Stack Trace:
+#0 /home/u605078044/public_html/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Upload.upload', Array)
+#1 /home/u605078044/public_html/lib/Cake/Model/Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 /home/u605078044/public_html/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(742): ClassRegistry::init(Array)
+#5 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(368): Controller->loadModel('Post')
+#6 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(406): Controller->__isset('Post')
+#7 /home/u605078044/public_html/app/Controller/PostsController.php(24): Controller->__get('Post')
+#8 [internal function]: PostsController->index()
+#9 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /home/u605078044/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-02-07 10:31:19 Error: [MissingBehaviorException] Behavior class uploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'uploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /posts
+Stack Trace:
+#0 /home/u605078044/public_html/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Upload.upload', Array)
+#1 /home/u605078044/public_html/lib/Cake/Model/Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 /home/u605078044/public_html/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(742): ClassRegistry::init(Array)
+#5 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(368): Controller->loadModel('Post')
+#6 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(406): Controller->__isset('Post')
+#7 /home/u605078044/public_html/app/Controller/PostsController.php(24): Controller->__get('Post')
+#8 [internal function]: PostsController->index()
+#9 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /home/u605078044/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-02-07 10:31:19 Error: [MissingBehaviorException] Behavior class uploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'uploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /posts
+Stack Trace:
+#0 /home/u605078044/public_html/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Upload.upload', Array)
+#1 /home/u605078044/public_html/lib/Cake/Model/Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 /home/u605078044/public_html/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(742): ClassRegistry::init(Array)
+#5 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(368): Controller->loadModel('Post')
+#6 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(406): Controller->__isset('Post')
+#7 /home/u605078044/public_html/app/Controller/PostsController.php(24): Controller->__get('Post')
+#8 [internal function]: PostsController->index()
+#9 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /home/u605078044/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-02-07 10:31:20 Error: [MissingBehaviorException] Behavior class uploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'uploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /posts
+Stack Trace:
+#0 /home/u605078044/public_html/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Upload.upload', Array)
+#1 /home/u605078044/public_html/lib/Cake/Model/Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 /home/u605078044/public_html/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(742): ClassRegistry::init(Array)
+#5 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(368): Controller->loadModel('Post')
+#6 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(406): Controller->__isset('Post')
+#7 /home/u605078044/public_html/app/Controller/PostsController.php(24): Controller->__get('Post')
+#8 [internal function]: PostsController->index()
+#9 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /home/u605078044/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-02-07 10:31:20 Error: [MissingBehaviorException] Behavior class uploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'uploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /posts
+Stack Trace:
+#0 /home/u605078044/public_html/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Upload.upload', Array)
+#1 /home/u605078044/public_html/lib/Cake/Model/Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 /home/u605078044/public_html/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(742): ClassRegistry::init(Array)
+#5 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(368): Controller->loadModel('Post')
+#6 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(406): Controller->__isset('Post')
+#7 /home/u605078044/public_html/app/Controller/PostsController.php(24): Controller->__get('Post')
+#8 [internal function]: PostsController->index()
+#9 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /home/u605078044/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-02-07 10:32:52 Error: [MissingBehaviorException] Behavior class uploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'uploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /posts
+Stack Trace:
+#0 /home/u605078044/public_html/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Upload.upload', Array)
+#1 /home/u605078044/public_html/lib/Cake/Model/Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 /home/u605078044/public_html/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(742): ClassRegistry::init(Array)
+#5 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(368): Controller->loadModel('Post')
+#6 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(406): Controller->__isset('Post')
+#7 /home/u605078044/public_html/app/Controller/PostsController.php(24): Controller->__get('Post')
+#8 [internal function]: PostsController->index()
+#9 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /home/u605078044/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-02-07 10:32:53 Error: [MissingBehaviorException] Behavior class uploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'uploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /posts
+Stack Trace:
+#0 /home/u605078044/public_html/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Upload.upload', Array)
+#1 /home/u605078044/public_html/lib/Cake/Model/Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 /home/u605078044/public_html/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(742): ClassRegistry::init(Array)
+#5 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(368): Controller->loadModel('Post')
+#6 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(406): Controller->__isset('Post')
+#7 /home/u605078044/public_html/app/Controller/PostsController.php(24): Controller->__get('Post')
+#8 [internal function]: PostsController->index()
+#9 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /home/u605078044/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-02-07 10:32:53 Error: [MissingBehaviorException] Behavior class uploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'uploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /posts
+Stack Trace:
+#0 /home/u605078044/public_html/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Upload.upload', Array)
+#1 /home/u605078044/public_html/lib/Cake/Model/Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 /home/u605078044/public_html/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(742): ClassRegistry::init(Array)
+#5 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(368): Controller->loadModel('Post')
+#6 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(406): Controller->__isset('Post')
+#7 /home/u605078044/public_html/app/Controller/PostsController.php(24): Controller->__get('Post')
+#8 [internal function]: PostsController->index()
+#9 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /home/u605078044/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-02-07 10:34:49 Error: [MissingPluginException] Plugin Upload could not be found.
+Exception Attributes: array (
+  'plugin' => 'Upload',
+)
+Request URL: /posts
+Stack Trace:
+#0 /home/u605078044/public_html/lib/Cake/Core/App.php(227): CakePlugin::path('Upload')
+#1 /home/u605078044/public_html/lib/Cake/Core/App.php(549): App::path('Model/Behavior', 'Upload')
+#2 [internal function]: App::load('uploadBehavior')
+#3 [internal function]: spl_autoload_call('uploadBehavior')
+#4 /home/u605078044/public_html/lib/Cake/Model/BehaviorCollection.php(120): class_exists('uploadBehavior')
+#5 /home/u605078044/public_html/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Upload.upload', Array)
+#6 /home/u605078044/public_html/lib/Cake/Model/Model.php(781): BehaviorCollection->init('Post', Array)
+#7 [internal function]: Model->__construct(Array)
+#8 /home/u605078044/public_html/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#9 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(742): ClassRegistry::init(Array)
+#10 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(368): Controller->loadModel('Post')
+#11 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(406): Controller->__isset('Post')
+#12 /home/u605078044/public_html/app/Controller/PostsController.php(24): Controller->__get('Post')
+#13 [internal function]: PostsController->index()
+#14 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#15 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#16 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#17 /home/u605078044/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2018-02-07 10:35:01 Error: [MissingBehaviorException] Behavior class uploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'uploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /posts
+Stack Trace:
+#0 /home/u605078044/public_html/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Upload.upload', Array)
+#1 /home/u605078044/public_html/lib/Cake/Model/Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 /home/u605078044/public_html/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(742): ClassRegistry::init(Array)
+#5 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(368): Controller->loadModel('Post')
+#6 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(406): Controller->__isset('Post')
+#7 /home/u605078044/public_html/app/Controller/PostsController.php(24): Controller->__get('Post')
+#8 [internal function]: PostsController->index()
+#9 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /home/u605078044/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-02-07 10:38:04 Error: [MissingBehaviorException] Behavior class uploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'uploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /posts
+Stack Trace:
+#0 /home/u605078044/public_html/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('Upload.upload', Array)
+#1 /home/u605078044/public_html/lib/Cake/Model/Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 /home/u605078044/public_html/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(742): ClassRegistry::init(Array)
+#5 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(368): Controller->loadModel('Post')
+#6 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(406): Controller->__isset('Post')
+#7 /home/u605078044/public_html/app/Controller/PostsController.php(24): Controller->__get('Post')
+#8 [internal function]: PostsController->index()
+#9 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /home/u605078044/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-02-07 10:41:15 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /posts
+Stack Trace:
+#0 /home/u605078044/public_html/lib/Cake/Model/Datasource/DboSource.php(271): Mysql->connect()
+#1 /home/u605078044/public_html/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/u605078044/public_html/lib/Cake/Model/Model.php(3646): ConnectionManager::getDataSource('default')
+#3 /home/u605078044/public_html/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /home/u605078044/public_html/lib/Cake/Model/Model.php(3673): Model->setSource('posts')
+#5 /home/u605078044/public_html/lib/Cake/Model/Model.php(3040): Model->getDataSource()
+#6 /home/u605078044/public_html/lib/Cake/Model/Model.php(3012): Model->_readDataSource('all', Array)
+#7 /home/u605078044/public_html/lib/Cake/Controller/Component/PaginatorComponent.php(212): Model->find('all', Array)
+#8 /home/u605078044/public_html/app/Controller/PostsController.php(25): PaginatorComponent->paginate()
+#9 [internal function]: PostsController->index()
+#10 /home/u605078044/public_html/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /home/u605078044/public_html/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /home/u605078044/public_html/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
