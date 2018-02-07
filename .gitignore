@@ -1,0 +1,7 @@
+# Ignorar arquivos específicos
+#.gitignore
+app/Config/database.php
+
+# Ignorar todos os diretórios e arquivos em um diretório.
+app/tmp/**/*
+app/webroot/files/**/*
