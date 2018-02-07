@@ -767,28 +767,3 @@ Stack Trace:
 #1 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
 #2 C:\wamp\www\projects\curso_cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
-2018-02-07 08:29:50 Error: [MissingPluginException] Plugin Upload could not be found.
-Exception Attributes: array (
-  'plugin' => 'Upload',
-)
-Request URL: /curso-cakephp/public_html/
-Stack Trace:
-#0 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Core\App.php(227): CakePlugin::path('Upload')
-#1 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Core\App.php(549): App::path('Model/Behavior', 'Upload')
-#2 [internal function]: App::load('uploadBehavior')
-#3 [internal function]: spl_autoload_call('uploadBehavior')
-#4 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Model\BehaviorCollection.php(120): class_exists('uploadBehavior')
-#5 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Upload.upload', Array)
-#6 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Model\Model.php(781): BehaviorCollection->init('Post', Array)
-#7 [internal function]: Model->__construct(Array)
-#8 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
-#9 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Controller\Controller.php(742): ClassRegistry::init(Array)
-#10 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Controller\Controller.php(368): Controller->loadModel('Post')
-#11 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Controller\Controller.php(406): Controller->__isset('Post')
-#12 C:\xampp\htdocs\curso-cakephp\public_html\app\Controller\PostsController.php(24): Controller->__get('Post')
-#13 [internal function]: PostsController->index()
-#14 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
-#15 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
-#16 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
-#17 C:\xampp\htdocs\curso-cakephp\public_html\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#18 {main}
