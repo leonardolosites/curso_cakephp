@@ -65,28 +65,28 @@
  * A key/value array of driver specific connection options.
  */
 class DATABASE_CONFIG {
-
-	public $default = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => 'mysql.hostinger.com.br',
-		'login' => 'u605078044_root',
-		'password' => '12345root',
-		'database' => 'u605078044_cake',
-		'prefix' => '',
-		'encoding' => 'utf8',
-	);
 //
 //	public $default = array(
 //		'datasource' => 'Database/Mysql',
 //		'persistent' => false,
-//		'host' => 'localhost',
-//		'login' => 'root',
-//		'password' => '',
-//		'database' => '20123av',
+//		'host' => 'mysql.hostinger.com.br',
+//		'login' => 'u605078044_root',
+//		'password' => '12345root',
+//		'database' => 'u605078044_cake',
 //		'prefix' => '',
 //		'encoding' => 'utf8',
 //	);
+//
+	public $default = array(
+		'datasource' => 'Database/Mysql',
+		'persistent' => false,
+		'host' => 'localhost',
+		'login' => 'root',
+		'password' => '',
+		'database' => '20123av',
+		'prefix' => '',
+		'encoding' => 'utf8',
+	);
 
 
 	public $test = array(

@@ -20,6 +20,7 @@
 App::uses('Folder', 'Utility');
 App::uses('UploadException', 'Upload.Lib/Error/Exception');
 App::uses('HttpSocket', 'Network/Http');
+App::uses('ModelBehavior', 'Model');
 
 class UploadBehavior extends ModelBehavior {
 
