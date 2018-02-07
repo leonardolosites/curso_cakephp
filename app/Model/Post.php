@@ -12,7 +12,7 @@ class Post extends AppModel {
 	 * @var array
 	 */
 	public $actsAs = array(
-		'Upload.upload' => array(
+		'Upload.Upload' => array(
 			'photo' => array(
 				//Local onde será salva
 				'pathMethod' => 'flat',
