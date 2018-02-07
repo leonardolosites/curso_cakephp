@@ -49,7 +49,7 @@
  * database. Uses database default not specified.
  *
  * sslmode =>
- * For Postgres specifies whether to 'disable', 'allow', 'prefer', or 'require' SSL for the 
+ * For Postgres specifies whether to 'disable', 'allow', 'prefer', or 'require' SSL for the
  * connection. The default value is 'allow'.
  *
  * unix_socket =>
@@ -69,15 +69,25 @@ class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'root',
-		'password' => '',
-		'database' => '20123av',
+		'host' => 'mysql.hostinger.com.br',
+		'login' => 'u605078044_root',
+		'password' => '12345root',
+		'database' => 'u605078044_cake',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
+//
+//	public $default = array(
+//		'datasource' => 'Database/Mysql',
+//		'persistent' => false,
+//		'host' => 'localhost',
+//		'login' => 'root',
+//		'password' => '',
+//		'database' => '20123av',
+//		'prefix' => '',
+//		'encoding' => 'utf8',
+//	);
 
-	
 
 	public $test = array(
 		'datasource' => 'Database/Mysql',
