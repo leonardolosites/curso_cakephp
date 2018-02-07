@@ -1,0 +1,794 @@
+2018-02-05 09:53:22 Error: [MissingActionException] Action UsersController::groups() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'groups',
+)
+Request URL: /curso/curso_cakephp/users/groups
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-02-05 09:55:04 Error: Fatal Error (4): syntax error, unexpected 'return' (T_RETURN) in [C:\xampp\htdocs\curso\curso_cakephp\app\Controller\UsersController.php, line 18]
+2018-02-05 09:55:04 Error: [FatalErrorException] syntax error, unexpected 'return' (T_RETURN)
+Request URL: /curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#2 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#3 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-02-05 09:55:05 Error: Fatal Error (4): syntax error, unexpected 'return' (T_RETURN) in [C:\xampp\htdocs\curso\curso_cakephp\app\Controller\UsersController.php, line 18]
+2018-02-05 09:55:05 Error: [FatalErrorException] syntax error, unexpected 'return' (T_RETURN)
+Request URL: /curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#2 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#3 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-02-05 09:55:06 Error: Fatal Error (4): syntax error, unexpected 'return' (T_RETURN) in [C:\xampp\htdocs\curso\curso_cakephp\app\Controller\UsersController.php, line 18]
+2018-02-05 09:55:06 Error: [FatalErrorException] syntax error, unexpected 'return' (T_RETURN)
+Request URL: /curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#2 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#3 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-02-05 09:55:06 Error: Fatal Error (4): syntax error, unexpected 'return' (T_RETURN) in [C:\xampp\htdocs\curso\curso_cakephp\app\Controller\UsersController.php, line 18]
+2018-02-05 09:55:06 Error: [FatalErrorException] syntax error, unexpected 'return' (T_RETURN)
+Request URL: /curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#2 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#3 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-02-05 09:55:07 Error: Fatal Error (4): syntax error, unexpected 'return' (T_RETURN) in [C:\xampp\htdocs\curso\curso_cakephp\app\Controller\UsersController.php, line 18]
+2018-02-05 09:55:07 Error: [FatalErrorException] syntax error, unexpected 'return' (T_RETURN)
+Request URL: /curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#2 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#3 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-02-05 09:55:07 Error: Fatal Error (4): syntax error, unexpected 'return' (T_RETURN) in [C:\xampp\htdocs\curso\curso_cakephp\app\Controller\UsersController.php, line 18]
+2018-02-05 09:55:07 Error: [FatalErrorException] syntax error, unexpected 'return' (T_RETURN)
+Request URL: /curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#2 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#3 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-02-05 11:13:43 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\curso\curso_cakephp\app\Controller\AppController.php, line 48]
+2018-02-05 11:13:43 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /curso/curso_cakephp/posts
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-02-05 11:16:09 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:16:50 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:19:34 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:26:09 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:26:10 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:26:15 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/index/controller/action
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:26:17 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/index/controller/action
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:27:23 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/index/controller/action
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:28:41 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/posts
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:30:33 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/posts
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:30:37 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:30:43 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:33:26 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:33:27 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:33:27 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:34:11 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:34:12 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:34:12 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:34:13 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:34:16 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:34:23 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:34:35 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:35:21 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:35:24 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:35:35 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:35:42 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:35:44 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:36:21 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:36:22 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:36:22 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:36:26 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:36:52 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:36:52 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:36:53 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:38:45 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:38:46 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 11:38:59 Error: [MissingControllerException] Controller class CursoController could not be found.
+Exception Attributes: array (
+  'class' => 'CursoController',
+  'plugin' => NULL,
+)
+Request URL: /curso/curso_cakephp/curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-02-05 14:46:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('INSERT INTO `20...', Array)
+#2 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\Datasource\DboSource.php(1092): DboSource->execute('INSERT INTO `20...')
+#3 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\Model.php(1942): DboSource->create(Object(Post), Array, Array)
+#4 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\Model.php(1760): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\curso\curso_cakephp\app\Controller\PostsController.php(51): Model->save(Array)
+#6 [internal function]: PostsController->add()
+#7 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#8 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#10 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2018-02-05 15:01:11 Error: [MissingBehaviorException] Behavior class UploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'UploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Upload.Upload', Array)
+#1 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(164): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Post')
+#6 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Post', 'key')
+#7 C:\xampp\htdocs\curso\curso_cakephp\app\View\Posts\add.ctp(2): FormHelper->create('Post', Array)
+#8 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#12 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#13 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2018-02-05 15:01:13 Error: [MissingBehaviorException] Behavior class UploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'UploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Upload.Upload', Array)
+#1 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(164): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Post')
+#6 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Post', 'key')
+#7 C:\xampp\htdocs\curso\curso_cakephp\app\View\Posts\add.ctp(2): FormHelper->create('Post', Array)
+#8 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#12 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#13 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2018-02-05 15:01:18 Error: [MissingBehaviorException] Behavior class UploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'UploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Upload.Upload', Array)
+#1 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(164): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Post')
+#6 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Post', 'key')
+#7 C:\xampp\htdocs\curso\curso_cakephp\app\View\Posts\add.ctp(2): FormHelper->create('Post', Array)
+#8 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#12 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#13 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2018-02-05 15:03:25 Error: [MissingBehaviorException] Behavior class UploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'UploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Upload.Upload', Array)
+#1 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(164): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Post')
+#6 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Post', 'key')
+#7 C:\xampp\htdocs\curso\curso_cakephp\app\View\Posts\add.ctp(2): FormHelper->create('Post', Array)
+#8 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#12 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#13 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2018-02-05 15:03:26 Error: [MissingBehaviorException] Behavior class UploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'UploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Upload.Upload', Array)
+#1 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(164): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Post')
+#6 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Post', 'key')
+#7 C:\xampp\htdocs\curso\curso_cakephp\app\View\Posts\add.ctp(2): FormHelper->create('Post', Array)
+#8 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#12 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#13 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2018-02-05 15:03:26 Error: [MissingBehaviorException] Behavior class UploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'UploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Upload.Upload', Array)
+#1 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(164): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Post')
+#6 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Post', 'key')
+#7 C:\xampp\htdocs\curso\curso_cakephp\app\View\Posts\add.ctp(2): FormHelper->create('Post', Array)
+#8 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#12 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#13 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2018-02-05 15:27:53 Error: [MissingBehaviorException] Behavior class uploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'uploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Upload.upload', Array)
+#1 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(164): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Post')
+#6 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Post', 'key')
+#7 C:\xampp\htdocs\curso\curso_cakephp\app\View\Posts\add.ctp(2): FormHelper->create('Post', Array)
+#8 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#12 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#13 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2018-02-05 15:27:55 Error: [MissingBehaviorException] Behavior class uploadBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'uploadBehavior',
+  'plugin' => 'Upload',
+)
+Request URL: /curso/curso_cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Upload.upload', Array)
+#1 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Model\Model.php(781): BehaviorCollection->init('Post', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(164): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Post')
+#6 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Post', 'key')
+#7 C:\xampp\htdocs\curso\curso_cakephp\app\View\Posts\add.ctp(2): FormHelper->create('Post', Array)
+#8 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#12 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#13 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#14 C:\xampp\htdocs\curso\curso_cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2018-02-05 17:57:17 Error: Fatal Error (4): syntax error, unexpected 'action' (T_STRING) in [C:\xampp\htdocs\curso\curso_cakephp\app\View\Products\edit.ctp, line 18]
+2018-02-05 17:57:17 Error: [FatalErrorException] syntax error, unexpected 'action' (T_STRING)
+Request URL: /curso/curso_cakephp/products/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#2 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18, Array)
+#3 C:\xampp\htdocs\curso\curso_cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-02-05 19:26:49 Error: [MissingTableException] Table products for model Product was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'products',
+  'class' => 'Product',
+  'ds' => 'default',
+)
+Request URL: /products
+Stack Trace:
+#0 C:\wamp\www\projects\curso_cakephp\lib\Cake\Model\Model.php(3673): Model->setSource('products')
+#1 C:\wamp\www\projects\curso_cakephp\lib\Cake\Model\Model.php(3040): Model->getDataSource()
+#2 C:\wamp\www\projects\curso_cakephp\lib\Cake\Model\Model.php(3012): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\projects\curso_cakephp\lib\Cake\Controller\Component\PaginatorComponent.php(212): Model->find('all', Array)
+#4 C:\wamp\www\projects\curso_cakephp\app\Controller\ProductsController.php(25): PaginatorComponent->paginate()
+#5 [internal function]: ProductsController->index()
+#6 C:\wamp\www\projects\curso_cakephp\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#7 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#9 C:\wamp\www\projects\curso_cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2018-02-05 19:41:08 Error: [MissingActionException] Action ProductsController::adicionar_carrinho() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'adicionar_carrinho',
+)
+Request URL: /products/adicionar_carrinho/1
+Stack Trace:
+#0 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\wamp\www\projects\curso_cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-02-05 19:48:12 Error: [Error] Call to a member function adiciona() on null
+Request URL: /products/adicionar_carrinho/1
+Stack Trace:
+#0 [internal function]: ProductsController->adicionar_carrinho('1')
+#1 C:\wamp\www\projects\curso_cakephp\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 C:\wamp\www\projects\curso_cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-05 19:48:47 Error: [Error] Call to a member function adiciona() on null
+Request URL: /products/adicionar_carrinho/1
+Stack Trace:
+#0 [internal function]: ProductsController->adicionar_carrinho('1')
+#1 C:\wamp\www\projects\curso_cakephp\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 C:\wamp\www\projects\curso_cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-05 19:48:48 Error: [Error] Call to a member function adiciona() on null
+Request URL: /products/adicionar_carrinho/1
+Stack Trace:
+#0 [internal function]: ProductsController->adicionar_carrinho('1')
+#1 C:\wamp\www\projects\curso_cakephp\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 C:\wamp\www\projects\curso_cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-05 20:37:06 Error: [ArgumentCountError] Too few arguments to function CarrinhoComponent::_save(), 0 passed in C:\wamp\www\projects\curso_cakephp\app\Controller\Component\CarrinhoComponent.php on line 48 and exactly 1 expected
+Request URL: /products/adicionar_carrinho/1
+Stack Trace:
+#0 C:\wamp\www\projects\curso_cakephp\app\Controller\Component\CarrinhoComponent.php(48): CarrinhoComponent->_save()
+#1 C:\wamp\www\projects\curso_cakephp\app\Controller\ProductsController.php(38): CarrinhoComponent->adiciona('1')
+#2 [internal function]: ProductsController->adicionar_carrinho('1')
+#3 C:\wamp\www\projects\curso_cakephp\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#4 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#6 C:\wamp\www\projects\curso_cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2018-02-05 20:43:33 Error: [ArgumentCountError] Too few arguments to function CarrinhoComponent::findProducts(), 0 passed in C:\wamp\www\projects\curso_cakephp\app\Controller\ProductsController.php on line 27 and at least 1 expected
+Request URL: /products
+Stack Trace:
+#0 C:\wamp\www\projects\curso_cakephp\app\Controller\ProductsController.php(27): CarrinhoComponent->findProducts()
+#1 [internal function]: ProductsController->index()
+#2 C:\wamp\www\projects\curso_cakephp\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#3 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#5 C:\wamp\www\projects\curso_cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2018-02-05 22:38:56 Error: [Error] Call to undefined method CarrinhoComponent::remove()
+Request URL: /products/remover_carrinho/1
+Stack Trace:
+#0 [internal function]: ProductsController->remover_carrinho('1')
+#1 C:\wamp\www\projects\curso_cakephp\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 C:\wamp\www\projects\curso_cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-05 22:40:42 Error: [MissingViewException] View file "Products\remover_carrinho.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Products\\remover_carrinho.ctp',
+)
+Request URL: /products/remover_carrinho/1
+Stack Trace:
+#0 C:\wamp\www\projects\curso_cakephp\lib\Cake\View\View.php(470): View->_getViewFileName('Products\\remove...')
+#1 C:\wamp\www\projects\curso_cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 C:\wamp\www\projects\curso_cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-05 22:41:25 Error: [MissingViewException] View file "Products\remover_carrinho.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Products\\remover_carrinho.ctp',
+)
+Request URL: /products/remover_carrinho/1
+Stack Trace:
+#0 C:\wamp\www\projects\curso_cakephp\lib\Cake\View\View.php(470): View->_getViewFileName('Products\\remove...')
+#1 C:\wamp\www\projects\curso_cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 C:\wamp\www\projects\curso_cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-05 22:43:24 Error: [MissingViewException] View file "Products\adicionar_carrinho.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Products\\adicionar_carrinho.ctp',
+)
+Request URL: /products/adicionar_carrinho/1
+Stack Trace:
+#0 C:\wamp\www\projects\curso_cakephp\lib\Cake\View\View.php(470): View->_getViewFileName('Products\\adicio...')
+#1 C:\wamp\www\projects\curso_cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 C:\wamp\www\projects\curso_cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-05 22:43:36 Error: [MissingViewException] View file "Products\remover_carrinho.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Products\\remover_carrinho.ctp',
+)
+Request URL: /products/remover_carrinho/1
+Stack Trace:
+#0 C:\wamp\www\projects\curso_cakephp\lib\Cake\View\View.php(470): View->_getViewFileName('Products\\remove...')
+#1 C:\wamp\www\projects\curso_cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 C:\wamp\www\projects\curso_cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-02-05 22:59:49 Error: [MissingActionException] Action ProductsController::atualiza_carrinho() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'atualiza_carrinho',
+)
+Request URL: /products/atualiza_carrinho
+Stack Trace:
+#0 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\projects\curso_cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\wamp\www\projects\curso_cakephp\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-02-07 08:29:50 Error: [MissingPluginException] Plugin Upload could not be found.
+Exception Attributes: array (
+  'plugin' => 'Upload',
+)
+Request URL: /curso-cakephp/public_html/
+Stack Trace:
+#0 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Core\App.php(227): CakePlugin::path('Upload')
+#1 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Core\App.php(549): App::path('Model/Behavior', 'Upload')
+#2 [internal function]: App::load('uploadBehavior')
+#3 [internal function]: spl_autoload_call('uploadBehavior')
+#4 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Model\BehaviorCollection.php(120): class_exists('uploadBehavior')
+#5 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Upload.upload', Array)
+#6 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Model\Model.php(781): BehaviorCollection->init('Post', Array)
+#7 [internal function]: Model->__construct(Array)
+#8 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#9 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Controller\Controller.php(742): ClassRegistry::init(Array)
+#10 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Controller\Controller.php(368): Controller->loadModel('Post')
+#11 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Controller\Controller.php(406): Controller->__isset('Post')
+#12 C:\xampp\htdocs\curso-cakephp\public_html\app\Controller\PostsController.php(24): Controller->__get('Post')
+#13 [internal function]: PostsController->index()
+#14 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#15 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#16 C:\xampp\htdocs\curso-cakephp\public_html\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#17 C:\xampp\htdocs\curso-cakephp\public_html\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
